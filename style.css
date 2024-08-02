@@ -1,0 +1,108 @@
+html {
+    font-size: 2vw;
+    font-family:sans-serif;
+}
+body {
+    box-sizing: border-box;
+    margin: 0px;
+}
+* {
+    box-sizing: inherit;
+}
+button , button:focus{
+    border: none;
+}
+#appBar {
+    width: 100vw;
+    height: 10vw;
+    background-color: rgba(255, 0, 0, 0.784);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    align-content: center;
+}
+#menuBtn {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0);
+    width: 12vw;
+}
+#menuBtn:hover , #searchBtn:hover{
+    background-color: rgb(255, 0, 0);
+}
+#searchBtn {
+    width: 12vw;
+    background: transparent;
+}
+#title {
+    margin: 2.5vw;
+    color: white;
+    font-size: 4vw;
+}
+
+#hamburger {
+    width: 60%;
+}
+#search {
+    width:60%;
+}
+
+
+#main {
+    position: absolute;
+    width: 100vw;
+    left: 0px;
+    height: 500px;
+    top: 10vw;
+    background-color: gray;
+}
+
+.chatElem {
+    font-size: 3vw;
+    border-bottom: 2px solid gray ;
+    background-color: white;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    display: flex;           /* Center the image within the container */
+    justify-content: space-between;
+    align-items: center;
+}
+.chatElem:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+.profCont {
+    position: relative;
+    margin-left: 10px;
+    border-radius: 50%; 
+    overflow: hidden;        /* Hide any overflow */
+    display: flex;           /* Center the image within the container */
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    height: 13vw;
+    width: 13vw;
+
+}
+
+.prof {
+    position: relative;
+    min-height: 100%;
+    max-height: 120%;
+      
+}
+
+.unreadLabel {
+    padding: 0.5vw;
+    background-color: rgb(205, 19, 19);
+    color: white;
+    border-radius: 6vw;
+    margin: 2vw;
+    width: 5vw;
+    height: 5vw;
+    display: flex;            /* Enable Flexbox */
+    justify-content: center;  /* Center text horizontally */
+    align-items: center; 
+}
+
