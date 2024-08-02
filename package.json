@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "first.js",
+  "scripts": {
+    "start" : "nodemon app.js",
+    "test": "nodemon event.js",
+    "dev": "nodemon first.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
